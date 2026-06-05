@@ -1,0 +1,21 @@
+ # model files (too large for GitHub)
+models/
+*.zip
+*.pt
+*.bin
+*.safetensors
+
+# data files
+data/
+
+# python
+__pycache__/
+*.pyc
+.env
+*.egg-info/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# conda
+envs/
