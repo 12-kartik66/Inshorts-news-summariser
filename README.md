@@ -112,7 +112,7 @@ models/
 ```
 
 ### 4. Add your Groq API key
-Open `app/main.py` and replace:
+Make `.env` and replace:
 ```python
 GROQ_KEY = "YOUR_GROQ_KEY_HERE"
 ```
@@ -137,8 +137,10 @@ inshorts-summariser/
 │       └── index.html           ← Frontend UI with sidebar
 ├── notebooks/
 │   ├── 01_eda.ipynb             ← Data exploration & length analysis
-│   └── 02_textrank.ipynb        ← TextRank baseline + ROUGE evaluation
+│   ├── 02_textrank.ipynb        ← TextRank baseline + ROUGE evaluation
+│   └── 03-bart-finetune.ipynb   ← BART fine-tuning on Kaggle T4 GPU
 ├── .gitignore
+├── requirements.txt
 └── README.md
 ```
 
